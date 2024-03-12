@@ -5,3 +5,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body {
+    min-height: 100vh;
+    background: darkgray;
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background: white;
+    color: #373737;
+}
+
+section.image {
+    background: #373737;
+    color: white;
+}
+
+section.image > p {
+    width: 400px;
+    background: #0000005e;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
