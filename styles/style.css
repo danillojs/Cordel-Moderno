@@ -21,6 +21,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 6vw;
+    font-family: Arial, Helvetica, Sans-Serif;
 }
 
 header > p {
@@ -73,12 +74,12 @@ section.image > p {
 }
 
 #parallax-fx1 {
-    background-image: url('/images/background001.jpg');
+    background-image: url('images/background001.jpg');
     background-position: right bottom;
 }
 
 #parallax-fx2 {
-    background-image: url('/images/background002.jpg');
+    background-image: url('/mages/background002.jpg');
 }
 
 footer {
