@@ -74,12 +74,12 @@ section.image > p {
 }
 
 #parallax-fx1 {
-    background-image: url('./images/background001.jpg');
+    background-image: url('../images/background001.jpg');
     background-position: right bottom;
 }
 
 #parallax-fx2 {
-    background-image: url('Cordel-Moderno/images/background002.jpg');
+    background-image: url('../images/background002.jpg');
 }
 
 footer {
