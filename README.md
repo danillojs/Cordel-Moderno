@@ -1,6 +1,6 @@
 # Cordel-Moderno
 
-<p>Aplicação que exibe um poema em forma de cordel estilizado e intuitivo com efeitos de parallax, tornando a experiência mais agradável.</p>
+<p>Aplicação desenvolvida para fins didáticos que exibe um poema em forma de cordel estilizado e intuitivo com efeitos de parallax, tornando a experiência mais agradável.</p>
 <p align=center>
 <a href="#tech">Tecnologias</a> | <a href="#how">Como usar</a>
 </p>
@@ -21,3 +21,4 @@
   git clone https://github.com/danillojs/Cordel-Moderno.git
   </code>
 </pre>
+Feito com &#x2764; por <a href="https://www.linkedin.com/in/danillo-nery">Danillo Ribeiro</a> &#x1F44B;
