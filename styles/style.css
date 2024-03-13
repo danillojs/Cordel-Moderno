@@ -20,10 +20,12 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 6vw;
 }
 
 header > p {
     padding-bottom: 50px;
+    font-size: 2vw;
 }
 
 header a, footer a {
@@ -41,6 +43,13 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-weight: bolder;
+    font-size: 4vw;
+}
+
+section > p {
+    padding-bottom: 5vh;
 }
 
 section.normal {
@@ -51,11 +60,25 @@ section.normal {
 section.image {
     background: #373737;
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.image > p {
-    width: 400px;
-    background: #0000005e;
+    display: inline-block;
+    padding: 10px;
+    background: #0000006a;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 40px #00000093;
+}
+
+#parallax-fx1 {
+    background-image: url('/images/background001.jpg');
+    background-position: right bottom;
+}
+
+#parallax-fx2 {
+    background-image: url('/images/background002.jpg');
 }
 
 footer {
@@ -63,4 +86,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+footer a {
+    text-decoration: underline;
 }
