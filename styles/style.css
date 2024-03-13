@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     min-height: 100vh;
     background: darkgray;
 }
@@ -29,13 +30,15 @@ header > p {
     font-size: 2vw;
 }
 
-header a, footer a {
+header a,
+footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
-header a:hover, footer a:hover {
+header a:hover,
+footer a:hover {
     text-decoration: underline;
 }
 
@@ -63,6 +66,7 @@ section.image {
     color: white;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 5px 5px 8px #00000045;
 }
 
 section.image > p {
@@ -74,12 +78,12 @@ section.image > p {
 }
 
 #parallax-fx1 {
-    background-image: url('../images/background001.jpg');
+    background-image: url("../images/background001.jpg");
     background-position: right bottom;
 }
 
 #parallax-fx2 {
-    background-image: url('../images/background002.jpg');
+    background-image: url("../images/background002.jpg");
 }
 
 footer {
