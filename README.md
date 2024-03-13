@@ -4,7 +4,7 @@
 <p align=center>
 <a href="#tech">Tecnologias</a> | <a href="#how">Como usar</a>
 </p>
-<h2 id="tech">&#x1F680; Tecnologies</h2>
+<h2 id="tech">&#x1F680; Tecnologias</h2>
 <ul>
   <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Html</a></li>
   <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">Css</a></li>
